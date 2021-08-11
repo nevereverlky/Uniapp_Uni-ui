@@ -1,0 +1,89 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+@font-face {
+    font-family: 'iconfont';  /* project id 2186724 */
+    src: url('//at.alicdn.com/t/font_2186724_srkaguij5ye.eot');
+    src: url('//at.alicdn.com/t/font_2186724_srkaguij5ye.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_2186724_srkaguij5ye.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_2186724_srkaguij5ye.woff') format('woff'),
+    url('//at.alicdn.com/t/font_2186724_srkaguij5ye.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_2186724_srkaguij5ye.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.iconarrow-right:before {
+  content: "\e601";
+}
+.iconzhuanfa:before {
+  content: "\e65f";
+}
+.iconshoucang:before {
+  content: "\e633";
+}
+.iconjingyin:before {
+  content: "\e65e";
+}
+.iconshengyin:before {
+  content: "\e753";
+}
+.iconkouhong:before {
+  content: "\e602";
+}
+.iconhot:before {
+  content: "\e603";
+}
+.iconhot1:before {
+  content: "\e872";
+}
+.icondianzan:before {
+  content: "\e719";
+}
+.iconpingjia:before {
+  content: "\e625";
+}
+view,
+text,
+navigator,
+input,
+image,
+swiper,
+swiper-item,
+scroll-view,
+page{
+	/*微信小程序中不支持*通配符*/
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+page{
+	font-size: 28rpx;
+	color: #666;
+}
+image{
+	width: 100%;
+	display: block;
+}
+

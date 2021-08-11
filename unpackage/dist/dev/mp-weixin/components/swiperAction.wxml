@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['touchstart',[['handleTouchstart',['$event']]]],['touchend',[['handleTouchend',['$event']]]]]}}" bindtouchstart="__e" bindtouchend="__e"><slot></slot></view>

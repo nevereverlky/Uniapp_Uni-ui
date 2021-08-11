@@ -1,0 +1,107 @@
+{
+	// "easycom": {
+	//         "autoscan": true,
+	//         "custom": {
+	//             // uni-ui 规则如下配置
+	//             "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+	//         }
+	// },
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/album/index",
+			"style": {
+				"navigationBarTitleText": "专辑详情"
+			}
+		},
+		{
+			"path": "pages/imgDetail/index",
+			"style": {
+				"navigationBarTitleText": "图片详情"
+			}
+		},
+		{
+			"path": "pages/imgCategory/index",
+			"style": {
+				"navigationBarTitleText": "图片分类"
+			}
+		},
+		{
+			"path": "pages/horizontal/index",
+			"style": {
+				"navigationBarTitleText": "横屏"
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/search/index",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},{
+			"path": "pages/video/index",
+			"style": {
+				"navigationBarTitleText": "视频"
+			}
+		},{
+			"path": "pages/videoPlay/index",
+			"style": {
+				"navigationBarTitleText": "视频播放"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "懂你找图",
+		"navigationBarBackgroundColor": "#000"
+	},
+	"tabBar":{
+		"color":"8a8a8a",
+		"selectedColor":"#13227a",
+		"backgroundColor":"#fff",
+		"position":"bottom",
+		"borderStyle":"black",
+		"list":[
+			{
+				"pagePath":"pages/home/index",
+				"text":"首页",
+				"iconPath":"./static/tabbar/home.png",
+				"selectedIconPath":"static/tabbar/home_turn.png"
+			},
+			{
+				"pagePath":"pages/horizontal/index",
+				"text":"横屏",
+				"iconPath":"static/tabbar/picture.png",
+				"selectedIconPath":"static/tabbar/picture_turn.png"
+			},
+			{
+				"pagePath":"pages/video/index",
+				"text":"视频",
+				"iconPath":"static/tabbar/video.png",
+				"selectedIconPath":"static/tabbar/video_turn.png"
+			},
+			{
+				"pagePath":"pages/search/index",
+				"text":"搜索",
+				"iconPath":"static/tabbar/search.png",
+				"selectedIconPath":"static/tabbar/search_turn.png"
+			},
+			{
+				"pagePath":"pages/mine/index",
+				"text":"我的",
+				"iconPath":"static/tabbar/mine.png",
+				"selectedIconPath":"static/tabbar/mine_turn.png"
+			}
+		]
+	}
+}
